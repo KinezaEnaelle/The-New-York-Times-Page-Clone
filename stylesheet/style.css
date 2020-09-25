@@ -1,0 +1,51 @@
+/*
+=======================
+header
+=======================
+*/
+
+header {
+    height: 50px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav a {
+    margin: 0 auto;
+    margin-left: 40px;
+}
+
+#search {
+    margin-left: 30px;
+}
+
+.right-nav {
+    margin-right: 20px;
+}
+
+#subscribe {
+    margin-right: 10px;
+    background: #5c8a8a;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 10px;
+}
+
+#login {
+    background: #5c8a8a;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 10px;
+}
