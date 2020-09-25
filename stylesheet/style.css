@@ -56,6 +56,7 @@ main section
 =======================
 */
 
+
 .smoking-gun h1 {
     font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
     font-style: italic;
@@ -80,4 +81,89 @@ main section
     color: #666;
     margin-left: 140px;
     text-align: left;
+}
+
+/* Paragraph Section */
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.article{
+    width: 85%;
+}
+.article p {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.article h5 {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.article-date-social-icons {
+    display: flex;
+}
+
+.article-date-social-icons p {
+    font-size: 15px;
+}
+
+.social-icons {
+    display: flex;
+    font-size: 28px;
+    width: 160px;
+    justify-content: space-around;
+}
+
+.appreciation p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+hr {
+    width: 5%;
+}
+
+h2 {
+    margin-left: 350px;
+}
+.editor{
+    display: flex;
+    flex-direction: column;
+}
+.aside-editor{
+    display: flex;
+}
+.aside-editor img {
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+}
+.aside-editor a {
+    line-height: 1.4;
+}
+.editor h4{
+    margin-bottom: 10px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+.editor hr{
+    width: 100%;
+    margin-bottom: 30px;
 }
