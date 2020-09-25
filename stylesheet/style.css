@@ -3,14 +3,12 @@
 header
 =======================
 */
+
 .header-container {
     display: flex;
     justify-content: space-between;
-    top: 0;
+    margin-bottom: 0px;
     padding-top: 10px;
-    width: 100%;
-    position: fixed;
-    border: 1px solid black;
 }
 
 .left-nav {
@@ -54,10 +52,6 @@ main section
 =======================
 */
 
-.smoking-gun{
-    top: 0;
-    background: #5c8a8a;
-}
 .smoking-gun h1 {
     font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
     font-style: italic;
@@ -85,16 +79,18 @@ main section
 
 /* Paragraph Section */
 
-.wrapper{
+.wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-.article{
+
+.article {
     width: 85%;
 }
+
 .article p {
+    background: lawngreen;
     padding: 0;
     margin: 0;
     border: 0;
@@ -144,26 +140,32 @@ hr {
 h2 {
     margin-left: 350px;
 }
-.editor{
+
+.editor {
     display: flex;
     flex-direction: column;
 }
-.aside-editor{
+
+.aside-editor {
     display: flex;
 }
+
 .aside-editor img {
     width: 150px;
     height: 100px;
     margin-right: 10px;
 }
+
 .aside-editor a {
     line-height: 1.4;
 }
-.editor h4{
+
+.editor h4 {
     margin-bottom: 10px;
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
-.editor hr{
+
+.editor hr {
     width: 100%;
     margin-bottom: 30px;
 }
