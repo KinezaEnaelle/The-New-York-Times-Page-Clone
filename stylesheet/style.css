@@ -49,28 +49,22 @@ header {
     color: #fff;
     font-size: 10px;
 }
-'
+
 /*
 =======================
 main section
 =======================
 */
-.smoking-gun{
-    background: brown;
-}
-h1{
-    background: cadetblue;
-}
-/* .container h1 {
+
+.smoking-gun h1 {
     font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
     font-style: italic;
     font-weight: 700;
     font-size: 40px;
     text-align: center;
-    background-color: red;
-} */
+}
 
-.container img {
+.smoking-gun img {
     max-width: 1002px;
     min-width: 1003px;
     height: auto;
@@ -80,7 +74,7 @@ h1{
     margin-left: 135px;
 }
 
-.container figcaption {
+.smoking-gun figcaption {
     font-size: 14px;
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     color: #666;
