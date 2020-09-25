@@ -171,13 +171,54 @@ h2 {
 
 .inflation-grid {
     background-image: url('/images/inflation-945.png');
-    background-repeat: no-repeat; 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-size: cover;
     padding-top: 12rem;
    grid-column-gap: 10px;
    grid-row-gap: 150px;
-   justify-items: center;
+}
+.physics-breakthrough {
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+.physics-breakthrough iframe {
+    width: 650px;
+    height: 415px;
+}
+.news p{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.news h3{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 350px;
+    margin-right: 350px;
+    
+}
+.bicep img {
+    margin-right: 350px;
+    margin-left: 350px;
+    width: 800px;
+    height: 515px;
+}
+
+.bicep figcaption {
+    margin-left: 350px;
+    font-size: 14px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    color: #666;
 }
 
