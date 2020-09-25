@@ -168,3 +168,16 @@ h2 {
     width: 100%;
     margin-bottom: 30px;
 }
+
+.inflation-grid {
+    background-image: url('/images/inflation-945.png');
+    background-repeat: no-repeat; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-size: cover;
+    padding-top: 12rem;
+   grid-column-gap: 10px;
+   grid-row-gap: 150px;
+   justify-items: center;
+}
+
