@@ -5,10 +5,16 @@ header
 */
 
 .header-container {
+    top: 0;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0px;
+    margin-bottom: 150px;
     padding-top: 10px;
+    border-bottom: 1px solid #ddd9d9
+}
+
+.left-nav, .middle-nav, .right-nav {
+    height: 40px;
 }
 
 .left-nav {
@@ -31,7 +37,7 @@ header
 
 #subscribe {
     margin-right: 10px;
-    background: #5c8a8a;
+    background: #4c6e92;
     padding: 10px;
     font-weight: bold;
     color: #fff;
@@ -39,7 +45,7 @@ header
 }
 
 #login {
-    background: #5c8a8a;
+    background: #4c6e92;
     padding: 10px;
     font-weight: bold;
     color: #fff;
@@ -57,7 +63,7 @@ main section
     font-style: italic;
     font-weight: 700;
     font-size: 40px;
-    text-align: center;
+    margin-left: 300px;
 }
 
 .smoking-gun img {
@@ -122,8 +128,8 @@ main section
 .social-icons {
     display: flex;
     font-size: 28px;
-    width: 160px;
-    justify-content: space-around;
+    width: 100px;
+    justify-content: space-between;
 }
 
 .appreciation p {
@@ -169,15 +175,23 @@ h2 {
     margin-bottom: 30px;
 }
 
+.inflation0 {
+    margin: auto;
+    width: 80%;
+}
+
 .inflation-grid {
     background-image: url('/images/inflation-945.png');
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-size: cover;
     padding-top: 12rem;
-   grid-column-gap: 10px;
-   grid-row-gap: 150px;
+    grid-column-gap: 10px;
+    grid-row-gap: 150px;
 }
+
+.inflation-content {}
+
 .physics-breakthrough {
     margin-right: 350px;
     margin-left: 350px;
@@ -187,7 +201,8 @@ h2 {
     width: 650px;
     height: 415px;
 }
-.news p{
+
+.news p {
     padding: 0;
     margin: 0;
     border: 0;
@@ -197,7 +212,8 @@ h2 {
     margin-left: 350px;
     margin-right: 350px;
 }
-.news h3{
+
+.news h3 {
     padding: 0;
     margin: 0;
     border: 0;
@@ -206,8 +222,8 @@ h2 {
     line-height: 1.5;
     margin-left: 350px;
     margin-right: 350px;
-    
 }
+
 .bicep img {
     margin-right: 350px;
     margin-left: 350px;
@@ -222,3 +238,79 @@ h2 {
     color: #666;
 }
 
+.comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.comments-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.read-comments {
+    background: #4c6e92;
+    color: #fff;
+    padding: 6px;
+    margin-right: 100px;
+    width: 250px;
+}
+
+.social-icons {
+    display: flex;
+    font-size: 17px;
+    margin-left: 130px;
+}
+.svg {
+    padding-bottom: 3px;
+}
+
+.f-svg a {
+    float: right;
+}
+
+.footer-grid-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content a {
+    line-height: 1.5;
+}
+.footer-content h5 {
+    margin-bottom: 10px;
+}
+.footer-content a,
+.footer-content h5 {
+    border-top: 4px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+li {
+    list-style: none;
+}
+.f-links ul {
+    display: flex;
+    justify-content: space-between;
+}
+footer li {
+    font-size: 12px;
+}
