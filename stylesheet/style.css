@@ -62,11 +62,10 @@ main section
 main {
     overflow: hidden;
 }
-
-.container {
-    margin: 50px 150px 70px 150px;
+.smoking-gun-container {
+   
+    margin: 10px 100px 10px 130px;
 }
-
 .smoking-gun h1 {
     font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
     font-style: italic;
@@ -180,19 +179,46 @@ hr {
     margin-bottom: 30px;
 }
 
-.inflation0 {
-    margin: auto;
-    width: 80%;
+.inflation {
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+.inflation h5 {
+    font-size: 20px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    margin-bottom: 1px;
+}
+
+.inflation p {
+    margin-top: 5px;
+}
+
+.inflation-theory-container {
+    margin: 50px 90px 50px 90px;
+    /* width: 80%; */
 }
 
 .inflation-grid {
     background-image: url('/images/inflation-945.png');
-    display: grid;
+     background-position: (top 100px);
+     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-size: cover;
-    padding-top: 12rem;
-    grid-column-gap: 10px;
-    grid-row-gap: 150px;
+    grid-column-gap: 8px;
+    grid-row-gap: 150px; 
+    padding-top: 150px;
+   
+
+}
+ .inflation-content {
+   /* position: relative; */
+   
+} 
+
+.inflation-content-heading {
+    font-size: small;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-weight: 900;
 }
 
 .wrapper2 {
@@ -274,7 +300,6 @@ hr {
 }
 
 footer {
-    /* background: indigo; */
     margin: 2px 40px 5px 40px;
 }
 
