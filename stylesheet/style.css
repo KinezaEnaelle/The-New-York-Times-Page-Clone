@@ -110,11 +110,11 @@ main {
 
 .social-icons {
     margin-right: 35px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .iconify {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .article p {
@@ -196,7 +196,7 @@ hr {
 }
 
 .wrapper2 {
-    margin: 20px 30px 50px 150px;
+    margin: 20px 30px 10px 150px;
 }
 
 .wrapper2 h3 {
@@ -247,8 +247,6 @@ hr {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 150px;
-    margin-right: 150px;
 }
 
 .comments-social {
@@ -275,18 +273,24 @@ hr {
     margin-left: 130px;
 }
 
-.svg {
-    padding-bottom: 3px;
+footer {
+    /* background: indigo; */
+    margin: 2px 40px 5px 40px;
+}
+
+.f-svg {
+    height: 30px;
 }
 
 .f-svg a {
+    font-size: small;
     float: right;
+    color: #0020c4;
 }
 
 .footer-grid-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
 }
 
 .footer-content {
@@ -313,6 +317,10 @@ footer a {
 
 li {
     list-style: none;
+}
+
+.f-links {
+    margin: 1px 15px 5px 20px;
 }
 
 .f-links ul {
