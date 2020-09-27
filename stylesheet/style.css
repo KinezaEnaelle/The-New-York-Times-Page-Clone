@@ -5,11 +5,12 @@ header
 */
 
 .header-container {
+    width: 100%;
     top: 0;
     display: flex;
     justify-content: space-between;
     margin-bottom: 150px;
-    padding-top: 10px;
+    padding-top: 1px;
     border-bottom: 1px solid #ddd9d9
 }
 
@@ -58,67 +59,74 @@ main section
 =======================
 */
 
+main {
+    overflow: hidden;
+}
+
+.container {
+    margin: 50px 150px 70px 150px;
+}
+
 .smoking-gun h1 {
     font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
     font-style: italic;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 40px;
-    margin-left: 300px;
+    margin-left: 150px;
 }
 
 .smoking-gun img {
-    max-width: 1002px;
-    min-width: 1003px;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    margin-left: 135px;
+    width: 980px;
 }
 
 .smoking-gun figcaption {
-    font-size: 14px;
+    font-size: 15px;
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     color: #666;
-    margin-left: 140px;
     text-align: left;
 }
 
 /* Paragraph Section */
 
 .wrapper {
+    margin: 20px 30px 50px 150px;
+}
+
+.art-aside {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .article {
-    width: 85%;
-}
-
-.article p {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-    font-size: 24px;
-    line-height: 1.5;
-    margin-left: 350px;
-    margin-right: 350px;
-}
-
-.article h5 {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-    font-size: 14px;
-    line-height: 1.5;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-right: 10px;
+    width: 580px;
 }
 
 .article-date-social-icons {
     display: flex;
+    justify-content: space-between;
+}
+
+.social-icons {
+    margin-right: 35px;
+    justify-content: space-evenly;
+}
+
+.iconify {
+    font-size: 40px;
+}
+
+.article p {
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.article h5 {
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .article-date-social-icons p {
@@ -142,13 +150,10 @@ hr {
     width: 5%;
 }
 
-h2 {
-    margin-left: 350px;
-}
-
 .editor {
     display: flex;
     flex-direction: column;
+    margin: 1px 10px 1px 75px;
 }
 
 .aside-editor {
@@ -190,49 +195,48 @@ h2 {
     grid-row-gap: 150px;
 }
 
-.inflation-content {}
+.wrapper2 {
+    margin: 20px 30px 50px 150px;
+}
 
-.physics-breakthrough {
-    margin-right: 350px;
-    margin-left: 350px;
+.wrapper2 h3 {
+    margin-left: 180px;
+    font-size: 20px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .physics-breakthrough iframe {
-    width: 650px;
-    height: 415px;
+    width: 600px;
+    height: 350px;
+    margin-right: 10px;
+    margin-left: 140px;
 }
 
-.news p {
-    padding: 0;
-    margin: 0;
-    border: 0;
+.physics-breakthrough-cap {
+    width: 600px;
+    margin-right: 10px;
+    margin-left: 140px;
+}
+
+.article2 {
+    width: 620px;
+}
+
+.article2 p {
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     font-size: 24px;
-    line-height: 1.5;
-    margin-left: 350px;
-    margin-right: 350px;
-}
-
-.news h3 {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-    font-size: 20px;
-    line-height: 1.5;
-    margin-left: 350px;
-    margin-right: 350px;
+    line-height: 1.3;
+    margin: 0px -150px 0px 180px;
 }
 
 .bicep img {
-    margin-right: 350px;
-    margin-left: 350px;
-    width: 800px;
-    height: 515px;
+    width: 580px;
+    height: 380px;
+    margin-left: 150px;
 }
 
 .bicep figcaption {
-    margin-left: 350px;
+    margin-left: 150px;
     font-size: 14px;
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     color: #666;
@@ -270,6 +274,7 @@ h2 {
     font-size: 17px;
     margin-left: 130px;
 }
+
 .svg {
     padding-bottom: 3px;
 }
@@ -292,11 +297,12 @@ h2 {
 .footer-content a {
     line-height: 1.5;
 }
+
 .footer-content h5 {
     margin-bottom: 10px;
 }
-.footer-content a,
-.footer-content h5 {
+
+.footer-content a, .footer-content h5 {
     border-top: 4px;
 }
 
@@ -304,13 +310,16 @@ footer a {
     text-decoration: none;
     color: #000;
 }
+
 li {
     list-style: none;
 }
+
 .f-links ul {
     display: flex;
     justify-content: space-between;
 }
+
 footer li {
     font-size: 12px;
 }
