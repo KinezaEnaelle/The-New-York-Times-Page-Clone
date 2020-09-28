@@ -2,7 +2,7 @@
 
 # THE NEW YORK TIMES PAGE CLONE
 This project consists of cloning The New York Times Page using HTML and CSS. Float, Flex, and Grid are highly used
-![screenshot](/images/screenshot.png)
+
 
 ## The following are some of the features of this project:
 
