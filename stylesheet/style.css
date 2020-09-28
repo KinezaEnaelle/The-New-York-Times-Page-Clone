@@ -5,79 +5,77 @@ header
 */
 
 nav {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 10;
-  background: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    background: white;
 }
 
 .header-container {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 1px;
-  border-bottom: 1px solid #ddd9d9;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1px;
+    border-bottom: 1px solid #ddd9d9;
 }
 
-.left-nav,
-.middle-nav,
-.right-nav {
-  height: 40px;
+.left-nav, .middle-nav, .right-nav {
+    height: 40px;
 }
 
 .left-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
 }
 
 .left-nav a {
-  margin: 0 auto;
-  margin-left: 40px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 700;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  color: #000;
-  letter-spacing: 0.7px;
-  line-height: 19px;
+    margin: 0 auto;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    color: #000;
+    letter-spacing: 0.7px;
+    line-height: 19px;
 }
 
 .middle-nav {
-  padding-top: 5px;
-  margin-top: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
 }
 
 #search {
-  margin-left: 30px;
+    margin-left: 30px;
 }
 
 .right-nav {
-  padding-top: 5px;
-  margin-right: 20px;
+    padding-top: 5px;
+    margin-right: 20px;
 }
 
 .right-nav a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 #subscribe {
-  margin-right: 10px;
-  background: #4c6e92;
-  padding: 10px;
-  font-weight: bold;
-  color: #fff;
-  font-size: 10px;
+    margin-right: 10px;
+    background: #4c6e92;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 10px;
 }
 
 #login {
-  background: #4c6e92;
-  padding: 10px;
-  font-weight: bold;
-  color: #fff;
-  font-size: 10px;
+    background: #4c6e92;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 10px;
 }
 
 /*
@@ -87,89 +85,89 @@ main section
 */
 
 main {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .smoking-gun-container {
-  margin: 10px 100px 10px 130px;
+    margin: 10px 100px 10px 130px;
 }
 
 .smoking-gun h1 {
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 40px;
-  margin-left: 150px;
-  padding-top: 30px;
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 150px;
+    padding-top: 30px;
 }
 
 .smoking-gun img {
-  width: 980px;
+    width: 980px;
 }
 
 .smoking-gun figcaption {
-  font-size: 15px;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  color: #666;
-  text-align: left;
+    font-size: 15px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    color: #666;
+    text-align: left;
 }
 
 /* Paragraph Section */
 
 .wrapper {
-  margin: 20px 30px 50px 150px;
+    margin: 20px 30px 50px 150px;
 }
 
 .art-aside {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .article {
-  margin-right: 10px;
-  width: 600px;
-  margin-left: 200px;
+    margin-right: 10px;
+    width: 600px;
+    margin-left: 200px;
 }
 
 .article-date-social-icons {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .social-icons {
-  margin-right: 35px;
-  justify-content: space-between;
+    margin-right: 35px;
+    justify-content: space-between;
 }
 
 .iconify {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .article p {
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-size: 24px;
-  line-height: 1.3;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-size: 24px;
+    line-height: 1.3;
 }
 
 .article h5 {
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-size: 14px;
-  line-height: 1.5;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .article-date-social-icons p {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 .appreciation p {
-  text-align: center;
-  font-size: 15px;
-  line-height: 1.2;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.2;
 }
 
 hr {
-  width: 5%;
+    width: 5%;
 }
 
 /*
@@ -179,33 +177,33 @@ aside
 */
 
 .editor {
-  display: flex;
-  flex-direction: column;
-  margin: 1px 10px 1px 35px;
+    display: flex;
+    flex-direction: column;
+    margin: 1px 10px 1px 35px;
 }
 
 .aside-editor {
-  display: flex;
+    display: flex;
 }
 
 .aside-editor img {
-  width: 150px;
-  height: 100px;
-  margin-right: 10px;
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
 }
 
 .aside-editor a {
-  line-height: 1.4;
+    line-height: 1.4;
 }
 
 .editor h4 {
-  margin-bottom: 10px;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    margin-bottom: 10px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .editor hr {
-  width: 100%;
-  margin-bottom: 30px;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 /*
@@ -215,37 +213,37 @@ inflation grid section
 */
 
 .inflation {
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .inflation h5 {
-  font-size: 20px;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  margin-bottom: 1px;
+    font-size: 20px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    margin-bottom: 1px;
 }
 
 .inflation p {
-  margin-top: 5px;
+    margin-top: 5px;
 }
 
 .inflation-theory-container {
-  margin: 50px 90px 50px 90px;
+    margin: 50px 90px 50px 90px;
 }
 
 .inflation-grid {
-  background-image: url('/images/inflation-945.png');
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  background-size: cover;
-  grid-column-gap: 8px;
-  grid-row-gap: 150px;
-  padding-top: 150px;
+    background-image: url('/images/inflation-945.png');
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-size: cover;
+    grid-column-gap: 8px;
+    grid-row-gap: 150px;
+    padding-top: 150px;
 }
 
 .inflation-content-heading {
-  font-size: small;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-weight: 900;
+    font-size: small;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-weight: 900;
 }
 
 /*
@@ -255,197 +253,196 @@ second paragraph section
 */
 
 .wrapper2 {
-  margin: 20px 30px 10px 150px;
+    margin: 20px 30px 10px 150px;
 }
 
 .wrapper2 h3 {
-  margin-left: 180px;
-  font-size: 20px;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    margin-left: 180px;
+    font-size: 20px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .physics-breakthrough iframe {
-  width: 600px;
-  height: 350px;
-  margin-right: 10px;
-  margin-left: 140px;
+    width: 600px;
+    height: 350px;
+    margin-right: 10px;
+    margin-left: 140px;
 }
 
 .physics-breakthrough-cap {
-  width: 600px;
-  margin-right: 10px;
-  margin-left: 140px;
+    width: 600px;
+    margin-right: 10px;
+    margin-left: 140px;
 }
 
 .article2 {
-  width: 620px;
+    width: 620px;
 }
 
 .article2 p {
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-size: 24px;
-  line-height: 1.3;
-  margin: 0 -150px 0 180px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-size: 24px;
+    line-height: 1.3;
+    margin: 0 -150px 0 180px;
 }
 
 .bicep img {
-  width: 580px;
-  height: 380px;
-  margin-left: 150px;
+    width: 580px;
+    height: 380px;
+    margin-left: 150px;
 }
 
 .bicep figcaption {
-  margin-left: 150px;
-  font-size: 14px;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  color: #666;
+    margin-left: 150px;
+    font-size: 14px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    color: #666;
 }
 
 .comment {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .comments-social {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 250px;
-  margin-right: 250px;
-  padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 20px;
 }
 
 .read-comments {
-  background: #4c6e92;
-  color: #fff;
-  padding: 6px;
-  margin-right: 100px;
-  width: 250px;
+    background: #4c6e92;
+    color: #fff;
+    padding: 6px;
+    margin-right: 100px;
+    width: 250px;
 }
 
 .social-icons2 {
-  display: flex;
-  font-size: 17px;
-  margin-left: 130px;
+    display: flex;
+    font-size: 17px;
+    margin-left: 130px;
 }
 
 /* Moon Grid Section */
 
 .grid-section a {
-  text-decoration: none;
-  margin-left: 5px;
-  margin-bottom: 2px;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-weight: bold;
-  color: black;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-weight: bold;
+    color: black;
 }
 
 .grid-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 150px;
-  margin-right: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 2px;
 }
 
 .most-popular {
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-size: 1.125rem;
-  font-weight: 500;
-  color: rgb(18, 18, 18);
-  margin-top: 20px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: rgb(18, 18, 18);
+    margin-top: 20px;
 }
 
 .most-popular h5 {
-  margin-top: 80px;
-  width: 100px;
-  margin-left: 20px;
+    margin-top: 80px;
+    width: 100px;
+    margin-left: 20px;
 }
 
 .most-popular p {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 .header-grid {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .moon-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1em;
 }
 
 .moon-images {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .moon-images img {
-  width: 250px;
-  height: 155px;
+    width: 250px;
+    height: 155px;
 }
 
 footer {
-  margin: 2px 40px 5px 40px;
+    margin: 2px 40px 5px 40px;
 }
 
 .f-svg {
-  height: 30px;
+    height: 30px;
 }
 
 .f-svg a {
-  font-size: small;
-  float: right;
-  color: #0020c4;
+    font-size: small;
+    float: right;
+    color: #0020c4;
 }
 
 .footer-grid-container {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-content {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-content a {
-  line-height: 1.5;
+    line-height: 1.5;
 }
 
 .footer-content h5 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
-.footer-content a,
-.footer-content h5 {
-  border-top: 4px;
+.footer-content a, .footer-content h5 {
+    border-top: 4px;
 }
 
 .footer a {
-  text-decoration: none;
-  color: #000;
+    text-decoration: none;
+    color: #000;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 .f-links {
-  margin: 1px 15px 5px 20px;
+    margin: 1px 15px 5px 20px;
 }
 
 .f-links ul {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer li {
-  font-size: 12px;
+    font-size: 12px;
 }
