@@ -217,7 +217,7 @@ inflation grid section
 }
 
 .inflation-grid {
-    background-image: url('./images/inflation-945.png');
+    background-image: url('/images/inflation-945.png');
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-size: cover;
