@@ -4,9 +4,15 @@ header
 =======================
 */
 
-.header-container {
+header {
+     position: fixed; 
     width: 100%;
     top: 0;
+    z-index: 10; 
+    background: white;
+}
+
+.header-container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 150px;
@@ -62,10 +68,11 @@ main section
 main {
     overflow: hidden;
 }
+
 .smoking-gun-container {
-   
     margin: 10px 100px 10px 130px;
 }
+
 .smoking-gun h1 {
     font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
     font-style: italic;
@@ -200,20 +207,17 @@ hr {
 
 .inflation-grid {
     background-image: url('/images/inflation-945.png');
-     background-position: (top 100px);
-     display: grid;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-size: cover;
     grid-column-gap: 8px;
-    grid-row-gap: 150px; 
+    grid-row-gap: 150px;
     padding-top: 150px;
-   
-
 }
- .inflation-content {
-   /* position: relative; */
-   
-} 
+
+.inflation-content {
+    /* position: relative; */
+}
 
 .inflation-content-heading {
     font-size: small;
@@ -297,6 +301,13 @@ hr {
     display: flex;
     font-size: 17px;
     margin-left: 130px;
+}
+
+.moon-grid {
+    background: fuchsia;
+    width: 350px;
+    height: 100px;
+    margin-left: 150px;
 }
 
 footer {
