@@ -4,8 +4,7 @@ header
 =======================
 */
 
-nav {
-  position: fixed;
+header {
   width: 100%;
   top: 0;
   z-index: 10;
@@ -15,6 +14,7 @@ nav {
 .header-container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 150px;
   padding-top: 1px;
   border-bottom: 1px solid #ddd9d9;
 }
@@ -28,25 +28,11 @@ nav {
 .left-nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-left: 10px;
 }
 
 .left-nav a {
   margin: 0 auto;
   margin-left: 40px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 700;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  color: #000;
-  letter-spacing: 0.7px;
-  line-height: 19px;
-}
-
-.middle-nav {
-  padding-top: 5px;
-  margin-top: 5px;
 }
 
 #search {
@@ -54,13 +40,7 @@ nav {
 }
 
 .right-nav {
-  padding-top: 5px;
   margin-right: 20px;
-}
-
-.right-nav a {
-  text-decoration: none;
-  color: white;
 }
 
 #subscribe {
@@ -100,7 +80,6 @@ main {
   font-weight: bold;
   font-size: 40px;
   margin-left: 150px;
-  padding-top: 30px;
 }
 
 .smoking-gun img {
@@ -128,8 +107,7 @@ main {
 
 .article {
   margin-right: 10px;
-  width: 600px;
-  margin-left: 200px;
+  width: 580px;
 }
 
 .article-date-social-icons {
@@ -181,7 +159,7 @@ aside
 .editor {
   display: flex;
   flex-direction: column;
-  margin: 1px 10px 1px 35px;
+  margin: 1px 10px 1px 75px;
 }
 
 .aside-editor {
@@ -230,6 +208,8 @@ inflation grid section
 
 .inflation-theory-container {
   margin: 50px 90px 50px 90px;
+
+  /* width: 80%; */
 }
 
 .inflation-grid {
@@ -239,7 +219,7 @@ inflation grid section
   background-size: cover;
   grid-column-gap: 8px;
   grid-row-gap: 150px;
-  padding-top: 175px;
+  padding-top: 150px;
 }
 
 .inflation-content-heading {
@@ -314,6 +294,7 @@ second paragraph section
   justify-content: center;
   margin-left: 250px;
   margin-right: 250px;
+  margin-bottom: 50px;
   padding: 20px;
 }
 
@@ -334,9 +315,7 @@ second paragraph section
 /* Moon Grid Section */
 
 .grid-section a {
-  text-decoration: none;
-  margin-left: 5px;
-  margin-bottom: 2px;
+  margin-left: 180px;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-weight: bold;
   color: black;
@@ -350,28 +329,8 @@ second paragraph section
   margin-right: 2px;
 }
 
-.most-popular {
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-size: 1.125rem;
-  font-weight: 500;
-  color: rgb(18, 18, 18);
-  margin-top: 20px;
-}
-
-.most-popular h5 {
-  margin-top: 80px;
-  width: 100px;
-  margin-left: 20px;
-}
-
 .most-popular p {
   margin-left: 20px;
-}
-
-.header-grid {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
 }
 
 .moon-grid {
@@ -390,6 +349,12 @@ second paragraph section
   width: 250px;
   height: 155px;
 }
+
+/*
+=======================
+footer
+=======================
+*/
 
 footer {
   margin: 2px 40px 5px 40px;
