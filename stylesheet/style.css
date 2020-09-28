@@ -5,10 +5,9 @@ header
 */
 
 header {
-     position: fixed; 
     width: 100%;
     top: 0;
-    z-index: 10; 
+    z-index: 10;
     background: white;
 }
 
@@ -156,6 +155,12 @@ hr {
     width: 5%;
 }
 
+/*
+=======================
+aside
+=======================
+*/
+
 .editor {
     display: flex;
     flex-direction: column;
@@ -186,6 +191,12 @@ hr {
     margin-bottom: 30px;
 }
 
+/*
+=======================
+inflation grid section
+=======================
+*/
+
 .inflation {
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
@@ -215,15 +226,17 @@ hr {
     padding-top: 150px;
 }
 
-.inflation-content {
-    /* position: relative; */
-}
-
 .inflation-content-heading {
     font-size: small;
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     font-weight: 900;
 }
+
+/*
+=======================
+second paragraph section
+=======================
+*/
 
 .wrapper2 {
     margin: 20px 30px 10px 150px;
@@ -305,36 +318,47 @@ hr {
 
 /* Moon Grid Section */
 
-.grid-section a{
-    margin-left: 250px;
-    margin-bottom: 10px;
+.grid-section a {
+    margin-left: 180px;
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     font-weight: bold;
     color: black;
 }
-.grid-container{
+
+.grid-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 2px;
 }
 
-.moon-grid{
+.most-popular p {
+    margin-left: 20px;
+}
+
+.moon-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 1em;
-    margin: 5px 200px 5px 250px;
 }
-.moon-images{
+
+.moon-images {
     margin: 0;
     padding: 0;
 }
-.moon-images img{
+
+.moon-images img {
     width: 250px;
     height: 155px;
 }
 
-
-/* Footer */
+/*
+=======================
+footer
+=======================
+*/
 
 footer {
     margin: 2px 40px 5px 40px;
@@ -393,4 +417,3 @@ li {
 footer li {
     font-size: 12px;
 }
-
