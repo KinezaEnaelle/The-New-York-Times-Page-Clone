@@ -52,7 +52,7 @@ Feel free to check the issues page.
 
 ## Live Demo 
 
-[Live Demo](https://rawcdn.githack.com/KinezaEnaelle/The-New-York-Times-Page-Clone/blob/index.html) 
+[Live Demo](https://raw.githack.com/KinezaEnaelle/The-New-York-Times-Page-Clone/feature/index.html)
 
 ## Show your support
 Give a ⭐️ if you like this project. 
