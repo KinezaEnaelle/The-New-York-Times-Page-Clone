@@ -303,12 +303,38 @@ hr {
     margin-left: 130px;
 }
 
-.moon-grid {
-    background: fuchsia;
-    width: 350px;
-    height: 100px;
-    margin-left: 150px;
+/* Moon Grid Section */
+
+.grid-section a{
+    margin-left: 250px;
+    margin-bottom: 10px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-weight: bold;
+    color: black;
 }
+.grid-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.moon-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1em;
+    margin: 5px 200px 5px 250px;
+}
+.moon-images{
+    margin: 0;
+    padding: 0;
+}
+.moon-images img{
+    width: 250px;
+    height: 155px;
+}
+
+
+/* Footer */
 
 footer {
     margin: 2px 40px 5px 40px;
@@ -367,3 +393,4 @@ li {
 footer li {
     font-size: 12px;
 }
+
