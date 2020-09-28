@@ -333,8 +333,8 @@ hr {
 
 .grid-section {
     display: flex;
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 170px;
+    margin-left: 170px;
 }
 
 .moon-editor {
@@ -492,7 +492,7 @@ li {
 }
 
 .f-links {
-    margin: 1px 15px 5px 20px;
+    margin: 1px 15px 50px 20px;
 }
 
 .f-links ul {
@@ -504,4 +504,19 @@ li {
     font-size: 12px;
     text-decoration: none;
     color: #666;
+}
+
+.f-fixed {
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    width: 100%;
+}
+
+.exp {
+    margin-left: 200px;
+    margin-right: 50px;
 }
