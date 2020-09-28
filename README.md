@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # THE NEW YORK TIMES PAGE CLONE
 This project consists of cloning The New York Times Page using HTML and CSS. Float, Flex, and Grid are highly used
