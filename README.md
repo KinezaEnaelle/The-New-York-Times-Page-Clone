@@ -18,6 +18,11 @@ This project consists of cloning The New York Times Page using HTML and CSS. Flo
 - Uses Iconify
 - Uses GIT
 
+
+## Live Demo 
+
+[Live Demo](https://raw.githack.com/KinezaEnaelle/The-New-York-Times-Page-Clone/feature/index.html)
+
 ## Getting Started 
 To get started with the Project:
 - go to Github
@@ -49,10 +54,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the issues page.
 
 
-
-## Live Demo 
-
-[Live Demo](https://raw.githack.com/KinezaEnaelle/The-New-York-Times-Page-Clone/feature/index.html)
 
 ## Show your support
 Give a ⭐️ if you like this project. 
