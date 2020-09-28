@@ -314,30 +314,64 @@ second paragraph section
 
 /* Moon Grid Section */
 
-.grid-section a {
-  margin-left: 180px;
+.grid-section{
+    display: flex;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.moon-editor{
+    display: flex;
+    flex-direction: column;
+}
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2px;
+  }
+  .grid-container a {
+    align-self: flex-start;
+  margin-bottom: 30px;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-weight: bold;
   color: black;
+  text-decoration: none;
 }
-
-.grid-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 150px;
-  margin-right: 2px;
+.grid-container hr{
+    width: 100%;
 }
-
-.most-popular p {
-  margin-left: 20px;
-}
-
 .moon-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1em;
+  }
+  .editor-container{
+      display: flex;
+      flex-direction: column;
+  }
+  .editor-container hr{
+    width: 100%;
+  }
+  .editor-container h5{
+      font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+      font-size: 18px;
+  }
+  .editor-pick{
+      display: flex;
+      justify-content: space-between;
+
+  }
+  .editor-images{
+    margin: 0;
+    padding: 0;
+  }
+  .editor-images img{
+    width: 250px;
+    height: 155px;
+}
+.editor-images figcaption{
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-size: 14px;
 }
 
 .moon-images {
@@ -349,6 +383,20 @@ second paragraph section
   width: 250px;
   height: 155px;
 }
+.most-popular hr{
+    width: 70%;
+}
+.most-popular h5{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-size: 18px;
+}
+.most-popular p {
+    margin-left: 20px;
+    font-family:  nyt-imperial, georgia, 'times new roman', times, serif ;
+    font-size: 18px;
+  } 
 
 /*
 =======================
