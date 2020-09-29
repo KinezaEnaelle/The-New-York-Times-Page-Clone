@@ -19,9 +19,7 @@ nav {
   border-bottom: 1px solid #ddd9d9;
 }
 
-.left-nav,
-.middle-nav,
-.right-nav {
+.left-nav, .middle-nav, .right-nav {
   height: 40px;
 }
 
@@ -36,7 +34,7 @@ nav {
   margin: 0 auto;
   margin-left: 40px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 700;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   color: #000;
@@ -450,10 +448,6 @@ footer {
 
 .footer hr {
   width: 100%;
-
-  /* border-bottom: 1px double #999;
-  border-top: 1px double #999; */
-  padding: 2px 0;
 }
 
 .f-svg {
@@ -493,8 +487,7 @@ footer {
   margin-bottom: 10px;
 }
 
-.footer-content a,
-.footer-content h5 {
+.footer-content a, .footer-content h5 {
   border-top: 4px;
 }
 
@@ -504,6 +497,10 @@ li {
 
 .f-links {
   margin: 1px 15px 50px 20px;
+}
+
+.f-links hr {
+  color: lightgrey;
 }
 
 .f-links ul {
@@ -519,7 +516,7 @@ li {
 
 .f-fixed {
   text-align: center;
-  border-top: 1px solid black;
+  /* border-top: 1px solid lightslategrey; */
   padding: 10px;
   position: fixed;
   bottom: 0;
