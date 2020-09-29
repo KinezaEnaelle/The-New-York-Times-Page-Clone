@@ -23,6 +23,7 @@ This project consists of cloning The New York Times Page using HTML and CSS. Flo
 
 [Live Demo](https://raw.githack.com/KinezaEnaelle/The-New-York-Times-Page-Clone/feature/index.html)
 
+
 ## Getting Started 
 To get started with the Project:
 - go to Github
