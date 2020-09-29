@@ -19,9 +19,7 @@ nav {
   border-bottom: 1px solid #ddd9d9;
 }
 
-.left-nav,
-.middle-nav,
-.right-nav {
+.left-nav, .middle-nav, .right-nav {
   height: 40px;
 }
 
@@ -236,13 +234,17 @@ hr {
   background-image: url('../images/inflation-945.png');
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 5px 1px;
   grid-column-gap: 2px;
   grid-row-gap: 172px;
   padding-top: 239px;
+}
 
+.inflation-content {
+  width: 100%;
+  padding-top: 25px;
+  margin-top: 50px;
 }
 
 .inflation-content-heading {
@@ -488,8 +490,7 @@ footer {
   margin-bottom: 10px;
 }
 
-.footer-content a,
-.footer-content h5 {
+.footer-content a, .footer-content h5 {
   border-top: 4px;
 }
 
