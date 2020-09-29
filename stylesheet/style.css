@@ -19,7 +19,9 @@ nav {
   border-bottom: 1px solid #ddd9d9;
 }
 
-.left-nav, .middle-nav, .right-nav {
+.left-nav,
+.middle-nav,
+.right-nav {
   height: 40px;
 }
 
@@ -487,7 +489,8 @@ footer {
   margin-bottom: 10px;
 }
 
-.footer-content a, .footer-content h5 {
+.footer-content a,
+.footer-content h5 {
   border-top: 4px;
 }
 
@@ -516,6 +519,7 @@ li {
 
 .f-fixed {
   text-align: center;
+
   /* border-top: 1px solid lightslategrey; */
   padding: 10px;
   position: fixed;
