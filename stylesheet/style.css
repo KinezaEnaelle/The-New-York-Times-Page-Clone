@@ -92,7 +92,7 @@ main {
   margin: 10px 100px 10px 130px;
 }
 
-.smoking-gun h1 {
+.smoking-gun h2 {
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-style: italic;
   font-weight: bold;
@@ -531,4 +531,3 @@ li {
 .subscr {
   display: inline;
 }
-
