@@ -19,7 +19,9 @@ nav {
   border-bottom: 1px solid #ddd9d9;
 }
 
-.left-nav, .middle-nav, .right-nav {
+.left-nav,
+.middle-nav,
+.right-nav {
   height: 40px;
 }
 
@@ -448,6 +450,7 @@ footer {
 
 .footer hr {
   width: 100%;
+
   /* border-bottom: 1px double #999;
   border-top: 1px double #999; */
   padding: 2px 0;
@@ -490,7 +493,8 @@ footer {
   margin-bottom: 10px;
 }
 
-.footer-content a, .footer-content h5 {
+.footer-content a,
+.footer-content h5 {
   border-top: 4px;
 }
 
