@@ -448,8 +448,8 @@ footer {
 
 .footer hr {
   width: 100%;
-  border-bottom: 1px double #999;
-  border-top: 1px double #999;
+  /* border-bottom: 1px double #999;
+  border-top: 1px double #999; */
   padding: 2px 0;
 }
 
@@ -527,3 +527,8 @@ li {
   margin-left: 200px;
   margin-right: 50px;
 }
+
+.subscr {
+  display: inline;
+}
+
